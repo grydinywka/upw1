@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pure JavaScript To-do List</title>
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+        <h3>To Do</h3>
+        <div class="toDo">
+          <div class="boxholder">
+            <input id="newtask" type="text" placeholder="Add Items...">
+            <button class="addbtn">+</button>
+          </div>
+      <ul id="incomplete-tasks">
+        <li class="boxholder"><input type="checkbox"><label>Go to doctor</label><input type="text"><button class="delete">Delete</button><button class="edit">Edit</button></li>
+        <li class="boxholder"><input type="checkbox"><label>Check e-mail</label><input type="text"><button class="delete">Delete</button><button class="edit">Edit</button></li>
+        <li class="boxholder"><input type="checkbox"><label>Groceries</label><input type="text"><button class="delete">Delete</button><button class="edit">Edit</button></li>
+
+      </ul>
+    </div>
+
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li class="boxholder"><input type="checkbox" checked><label>Go to bank</label><input type="text"><button class="delete">Delete</button><button class="edit">Edit</button></li>
+        <li class="boxholder"><input type="checkbox" checked><label>Exercise</label><input type="text"><button class="delete">Delete</button><button class="edit">Edit</button></li>
+        <li class="boxholder"><input type="checkbox" checked><label>Pick up kids</label><input type="text"><button class="delete">Delete</button><button class="edit">Edit</button></li>
+      </ul>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

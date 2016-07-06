@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Calc</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <div id="calculator" class="calculator">
+      <!-- screen and clear -->
+      <div class="top">
+        <span id="clear" class="clear">C</span>
+        <div id="viewer" class="viewer"></div>
+
+      </div>
+
+      <div class="keys">
+        <!---operators and other keys -->
+        <!-- 1 -->
+        <span class="btn" data-sign="7">7</span>
+        <span class="btn" data-sign="8">8</span>
+        <span class="btn" data-sign="9">9</span>
+        <span data-sign="(" class="btn operators">(</span>
+        <span data-sign="+" class="btn operators">+</span>
+        <!-- 2 -->
+        <span class="btn" data-sign="4">4</span>
+        <span class="btn" data-sign="5">5</span>
+        <span class="btn" data-sign="6">6</span>
+        <span data-sign=")" class="btn operators">)</span>
+        <span data-sign="-" class="btn operators">-</span>
+        <!-- 3 -->
+        <span class="btn" data-sign="1">1</span>
+        <span class="btn" data-sign="2">2</span>
+        <span class="btn" data-sign="3">3</span>
+        <span class="btn operators" data-sign="&#178;">&#178;</span>
+        <span data-sign="/" class="btn operators">/</span>
+        <!-- 4 -->
+        <span class="btn" data-sign="0">0</span>
+        <span class="btn" data-sign=".">.</span>
+        <span id="equals" class="equals">=</span>
+        <span class="btn operators" data-sign="&#8730;">&#8730;</span>
+        <span data-sign="*" class="btn operators">*</span>
+      </div>
+    </div>
+    <script type="text/javascript" src="index2.js"></script>
+  </body>
+</html>

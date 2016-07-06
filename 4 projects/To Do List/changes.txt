@@ -1,0 +1,5 @@
+1) I would like the borders and layout to look like they do on the mockup (including checkmarks as radio buttons)
+2) I would like the EDIT and DELETE buttons to be a pencil icon and trash can icon. These should only appear on hover of the list item’s rectangle. The + button should be replaced by hitting enter key.
+3) I would like the cursor to change to a “pointer” on hover of the each rectangle except the “ADD ITEM” box (which should have a “grab” cursor). When class is “edit” I want nothing to change except the cursor (from pointer to grab).
+4) I would like that gradient image to appear, with three separate colors (top middle and bottom) which I can edit later.
+5) I would like the font to be Open Sans, and I would like the “TO DO” and “COMPLETE” headings to be a heavier weight. It would probably make sense that they use the same markup tag as well.

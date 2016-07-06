@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 15px Helvetica, sans-serif; }
+
+/* finally adding some fallbacks*/
+/*bg gradient */
+html {
+  height: 100%;
+  background: white;
+  background: linear-gradient(#ff6969, #9fb8fe);
+  background-size: cover; }
+
+/*using box shadows*/
+#calculator {
+  width: 325px;
+  height: auto;
+  margin: 100px auto;
+  padding: 20px 20px 9px;
+ }
+
+/* Top portion */
+.top .clear {
+  float: left; }
+
+.top .viewer {
+  height: 38px;
+  width: 212px;
+  float: right;
+  padding: 0 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  /*Typography*/
+  font-size: 17px;
+  line-height: 40px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  letter-spacing: 1px; }
+
+/* Clear floats*/
+.keys, .top {
+  overflow: hidden; }
+
+.keys span, .top span.clear {
+  float: left;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  width: 66px;
+  height: 36px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 3px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 7px 11px 0;
+  color: white;
+  line-height: 36px;
+  text-align: center;
+  /* prevent text selection*/
+  user-select: none;
+  /*colin user select*/
+  /*smoothing out hover and active states*/
+  transition: all 0.2s ease; }
+
+/*Remove right margins from operator keys */
+.keys span {
+  margin-right: 7px;
+  width: calc(20% - 7px);
+}
+
+/*style different type of keys*/
+
+.keys span.eval {
+  background: #f1ff92;
+  box-shadow: 0px 4px #9da853;
+  color: #888e5f; }
+
+.top span.clear {
+  background: #ff9fa8;
+  color: white; }
+
+/* hover effects*/
+.keys span:hover {
+  color: #e1e0e0;
+  border-color: #e1e0e0;
+ }
+
+.keys span.eval:hover {
+  background: #f1ff92;
+  color: #ffffff; }
+
+.top span.clear:hover {
+  background: #f68991;
+  box-shadow: 0px 4px #d3545d;
+  color: white; }
+
+/* pressed down */
+.keys span:active {
+  box-shadow: 0px 0px #6b54d3;
+  top: 4px; }
+
+.keys span.eval:active {
+  box-shadow: 0px 0px #717a3;
+  top: 4px; }
+
+.top span.clear:active {
+  box-shadow: 0px 0px #d3545d; }
+
+/*# sourceMappingURL=style.css.map */
